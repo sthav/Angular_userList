@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'user-list-app';
+  usersData = [
+    { name: 'John Doe', email: 'johndoe@example.com' },
+    { name: 'Jane Smith', email: 'janesmith@example.com' },
+    { name: 'Alice Johnson', email: 'alicejohnson@example.com' },
+    // ...
+  ];
 }
